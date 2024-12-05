@@ -1,0 +1,322 @@
+/** Font */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Plus Jakarta Sans", Arial, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 150%;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  resize: none;
+  min-width: 100%;
+  min-height: 100%;
+  background: #fff;
+  color: #000;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:link {
+  color: #313132;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #313132;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+}
+
+input::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+input::-moz-placeholder {
+  opacity: 1;
+}
+
+input:-moz-placeholder {
+  opacity: 1;
+}
+
+input::-ms-input-placeholder {
+  opacity: 1;
+}
+
+a, a:hover, a:focus {
+  text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1180px;
+  }
+}
+/** Heading
+================================================*/
+.head_single {
+  position: relative;
+  padding-bottom: 10px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.head_single .title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: darkblue;
+  letter-spacing: 0.5px;
+}
+
+.head_blog {
+  position: relative;
+  padding-bottom: 20px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.head_blog .title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: darkblue;
+  letter-spacing: 0.5px;
+}
+
+/** Single
+================================================*/
+.gv_post_single {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  position: relative;
+}
+
+/** Meta
+================================================*/
+.meta {
+  font-size: 15px;
+  font-weight: 300;
+  color: #666;
+  padding-bottom: 24px;
+  font-style: italic;
+}
+
+/** Entry Content
+================================================*/
+.entry-content {
+  font-family: "Plus Jakarta Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  color: #000;
+  margin-bottom: 24px;
+}
+.entry-content img {
+  max-width: 100%;
+  height: auto;
+}
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+  margin-bottom: 20px;
+}
+.entry-content h1 {
+  font-size: 26px;
+}
+.entry-content h2 {
+  font-size: 24px;
+}
+.entry-content h3 {
+  font-size: 22px;
+}
+.entry-content h4 {
+  font-size: 18px;
+}
+.entry-content h5 {
+  font-size: 16px;
+}
+.entry-content h6 {
+  font-size: 16px;
+}
+.entry-content iframe,
+.entry-content object {
+  max-width: 100%;
+}
+.entry-content ul, .entry-content ol {
+  padding-left: 20px;
+}
+.entry-content table {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+.entry-content table thead tr th {
+  background: #aaa;
+  color: #000;
+  border: 1px solid #ccc;
+  padding: 7px 12px;
+}
+.entry-content table tbody tr th {
+  background: #aaa;
+  color: #000;
+  border: 1px solid #ccc;
+  padding: 7px 12px;
+}
+.entry-content table tbody tr td {
+  color: #000;
+  border: 1px solid #ccc;
+  padding: 7px 12px;
+}
+.entry-content table tbody tr:nth-child(even) td {
+  background: #f4f4f4;
+}
+.entry-content .wp-block-image {
+  margin-bottom: 20px;
+}
+.entry-content .aligncenter,
+.entry-content .alignleft,
+.entry-content .alignright {
+  max-width: 100%;
+}
+.entry-content .aligncenter img,
+.entry-content .alignleft img,
+.entry-content .alignright img {
+  max-width: 100%;
+  height: auto;
+}
+.entry-content .aligncenter {
+  float: none;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+.entry-content .aligncenter figcaption {
+  display: block !important;
+  font-style: italic;
+  color: #999;
+}
+.entry-content .alignleft {
+  float: left;
+  display: inline-block;
+  margin-right: 15px;
+}
+.entry-content .alignright {
+  float: right;
+  display: inline-block;
+  margin-left: 15px;
+}
+.entry-content .wp-caption-text {
+  font-style: italic;
+  padding: 10px;
+  background: #f4f4f4;
+}
+.entry-content .wp-block-image .aligncenter,
+.entry-content .wp-block-image .alignleft,
+.entry-content .wp-block-image .alignright {
+  max-width: 100%;
+}
+.entry-content .wp-block-image .aligncenter img,
+.entry-content .wp-block-image .alignleft img,
+.entry-content .wp-block-image .alignright img {
+  max-width: 100%;
+  height: auto;
+}
+.entry-content .wp-block-image figcaption {
+  background: #fdfdfd;
+  text-align: center;
+  margin-bottom: 13px;
+  font-style: italic;
+  padding: 6px;
+  font-size: 13px;
+}
+
+/** Related
+================================================*/
+.related {
+  position: relative;
+}
+.related .related-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+.related .related-item:last-child {
+  margin-bottom: 0;
+}
+.related .related-item .thumb {
+  min-width: 100px;
+  max-width: 100px;
+}
+.related .related-item .thumb a {
+  display: block;
+  padding-bottom: 75%;
+  position: relative;
+  width: 100%;
+}
+.related .related-item .thumb a img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+  height: 100%;
+  width: 100%;
+}
+.related .related-item .info {
+  flex: 1;
+  padding-left: 16px;
+  padding-top: 8px;
+}
+.related .related-item .info h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.related .related-item .info h4 a {
+  color: #333;
+  transition: all 0.2s ease 0s;
+}
+.related .related-item .info h4 a:hover {
+  color: darkred;
+}
+.related .related-item .info .date {
+  font-size: 13px;
+  font-style: italic;
+  display: block;
+  color: #888;
+}/*# sourceMappingURL=style.css.map */
